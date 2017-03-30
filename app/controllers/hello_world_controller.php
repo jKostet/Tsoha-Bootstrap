@@ -11,4 +11,8 @@
       // Testaa koodiasi täällä
       echo 'Hello World!';
     }
+
+    public static function hello() {
+      View::make('helloworld.html');
+    }
   }
